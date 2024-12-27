@@ -3,7 +3,7 @@ backend:
   branch: main # change this to your branch
   repo: zhenxix/Astro-theme-Cactus-zh_CN # 1、change this to your repo
   site_domain: blog.zhenxi.site # 2、change this to your domain
-  base_url: https://example.com # 3、change this to your prod URL
+  base_url: https://blog.zhenxi.site # 3、change this to your prod URL
   auth_endpoint: oauth # the oauth route provided by the integration
 
 collections:
