@@ -25,7 +25,6 @@ import decapCmsOauth from "astro-decap-cms-oauth";
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  favicon: 'public/650e4561171e1.png',
   adapter: vercel(),
     image: {
         domains: ["webmention.io"],
