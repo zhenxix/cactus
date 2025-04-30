@@ -13,11 +13,11 @@ const meta = {
   <h1 class="title mb-8">关于</h1>
 
   <div class="prose prose-sm prose-cactus max-w-none">
-    <p class="gradient-1">大家好！欢迎来到我的博客！我是Zhen XI，一个热爱生活、喜欢分享的开发爱好者。在这里，我希望通过文字记录我的所思所想，与志同道合的朋友们交流和成长。</p>
-    <p class="gradient-2">开这个博客的初衷很简单：我想有一个属于自己的小角落，记录生活的点滴，同时也希望我的内容能给读者带来一些启发或欢乐。如果我的文字能让你会心一笑，或者引发你的共鸣，那将是我的荣幸！</p>
-    <p class="gradient-3">如果你有任何想法或者建议，也可以通过zhenxi@linux.do与我联系，我会认真倾听每一条反馈。</p>
-    <p class="gradient-4">未来的日子里，我会持续更新博客内容，分享更多有趣的故事和有价值的信息。希望你能常来坐坐，我们一起在文字的世界里探索和成长！</p>
-    <p class="gradient-5">谢谢你的到来！</p>
+    <div class="typing-container" id="text-1" data-text="大家好！欢迎来到我的博客！我是Zhen XI，一个热爱生活、喜欢分享的开发爱好者。在这里，我希望通过文字记录我的所思所想，与志同道合的朋友们交流和成长。"></div>
+    <div class="typing-container" id="text-2" data-text="开这个博客的初衷很简单：我想有一个属于自己的小角落，记录生活的点滴，同时也希望我的内容能给读者带来一些启发或欢乐。如果我的文字能让你会心一笑，或者引发你的共鸣，那将是我的荣幸！"></div>
+    <div class="typing-container" id="text-3" data-text="如果你有任何想法或者建议，也可以通过zhenxi@linux.do与我联系，我会认真倾听每一条反馈。"></div>
+    <div class="typing-container" id="text-4" data-text="未来的日子里，我会持续更新博客内容，分享更多有趣的故事和有价值的信息。希望你能常来坐坐，我们一起在文字的世界里探索和成长！"></div>
+    <div class="typing-container" id="text-5" data-text="谢谢你的到来！"></div>
   </div>
 
   <div>
@@ -36,45 +36,42 @@ const meta = {
       --color-background: #f9f9f9;
     }
 
-    /* 渐变色类 */
+    .typing-container {
+      white-space: pre;
+      overflow: hidden;
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
     .gradient-1 {
       background: linear-gradient(90deg, var(--color-1), var(--color-2), var(--color-3), var(--color-4), var(--color-5));
       -webkit-background-clip: text;
       color: transparent;
-      font-weight: bold;
-      margin-top: 1rem;
     }
 
     .gradient-2 {
       background: linear-gradient(90deg, var(--color-2), var(--color-3), var(--color-4), var(--color-5), var(--color-6));
       -webkit-background-clip: text;
       color: transparent;
-      font-weight: bold;
-      margin-top: 1rem;
     }
 
     .gradient-3 {
       background: linear-gradient(90deg, var(--color-3), var(--color-4), var(--color-5), var(--color-6), var(--color-7));
       -webkit-background-clip: text;
       color: transparent;
-      font-weight: bold;
-      margin-top: 1rem;
     }
 
     .gradient-4 {
       background: linear-gradient(90deg, var(--color-4), var(--color-5), var(--color-6), var(--color-7), var(--color-1));
       -webkit-background-clip: text;
       color: transparent;
-      font-weight: bold;
-      margin-top: 1rem;
     }
 
     .gradient-5 {
       background: linear-gradient(90deg, var(--color-5), var(--color-6), var(--color-7), var(--color-1), var(--color-2));
       -webkit-background-clip: text;
       color: transparent;
-      font-weight: bold;
-      margin-top: 1rem;
     }
 
     /* 悬停交互 */
@@ -131,4 +128,25 @@ const meta = {
       }
     }
   </style>
+
+  <script>
+    // 逐字显示特效
+    function typeWriter(element, text, index, speed) {
+      if (index < text.length) {
+        element.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(() => typeWriter(element, text, index, speed), speed);
+      }
+    }
+
+    // 初始化打字机效果
+    document.querySelectorAll('.typing-container').forEach((container, i) => {
+      const text = container.getAttribute('data-text');
+      const classes = [
+        'gradient-1', 'gradient-2', 'gradient-3', 'gradient-4', 'gradient-5'
+      ];
+      container.className = classes[i % classes.length];
+      typeWriter(container, text, 0, 100);
+    });
+  </script>
 </PageLayout>
