@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#161229"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff9f43"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f8cff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <circle cx="120" cy="530" r="180" fill="#ffd166" opacity="0.06"/>
+  <circle cx="1180" cy="60" r="200" fill="#4f8cff" opacity="0.08"/>
+
+  <text x="60" y="72" font-family="Microsoft YaHei, sans-serif" font-size="36" font-weight="800" fill="#ffffff">"牛来"大模型事件回顾</text>
+  <text x="60" y="108" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#9aa7b8">一周登顶全球的国产开源模型 · 2026年8月</text>
+
+  <line x1="100" y1="240" x2="1180" y2="240" stroke="#2d3648" stroke-width="3"/>
+  <line x1="100" y1="240" x2="1180" y2="240" stroke="url(#gold)" stroke-width="3" opacity="0.4"/>
+
+  <g font-family="Microsoft YaHei, sans-serif">
+    <!-- 节点1 -->
+    <circle cx="190" cy="240" r="14" fill="#ffd166" stroke="#0d1117" stroke-width="4"/>
+    <rect x="90" y="120" width="200" height="96" rx="12" fill="#1c2333" stroke="#2d3648"/>
+    <text x="110" y="152" font-size="17" font-weight="700" fill="#ffd166">神秘上线</text>
+    <text x="110" y="180" font-size="14" fill="#c9d7e8">"牛来"悄悄上线/上线四天</text>
+    <text x="110" y="200" font-size="14" fill="#9aa7b8">冲至全球调用量第二</text>
+
+    <!-- 节点2 -->
+    <circle cx="540" cy="240" r="14" fill="#ff9f43" stroke="#0d1117" stroke-width="4"/>
+    <rect x="440" y="76" width="200" height="96" rx="12" fill="#1c2333" stroke="#2d3648"/>
+    <text x="460" y="108" font-size="17" font-weight="700" fill="#ff9f43">一周登顶</text>
+    <text x="460" y="136" font-size="14" fill="#c9d7e8">登顶全球调用榜</text>
+    <text x="460" y="156" font-size="14" fill="#9aa7b8">高热引发"真身"猜测</text>
+
+    <!-- 节点3 -->
+    <circle cx="890" cy="240" r="14" fill="#e08a2e" stroke="#0d1117" stroke-width="4"/>
+    <rect x="790" y="120" width="200" height="96" rx="12" fill="#1c2333" stroke="#2d3648"/>
+    <text x="810" y="152" font-size="17" font-weight="700" fill="#e08a2e">真身揭晓</text>
+    <text x="810" y="180" font-size="14" fill="#c9d7e8">智谱认领：GLM-5.3-Flash</text>
+    <text x="810" y="200" font-size="14" fill="#9aa7b8">今日(08.28)正式官宣</text>
+  </g>
+
+  <rect x="60" y="390" width="1160" height="130" rx="16" fill="#1c2333" stroke="#2d3648"/>
+  <text x="84" y="428" font-family="Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#ffd166">意义</text>
+  <text x="84" y="462" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#c9d7e8">① 10 万张国产芯片首次大规模服务全球真实负载 ——"国产算力 + 开源模型"里程碑</text>
+  <text x="84" y="492" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#c9d7e8">② 开源发布重划国产大模型价格线；SemiAnalysis 评价"英伟达护城河再受考验"</text>
+
+  <text x="60" y="548" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#5b6b80">示意图 · 数据据公开报道整理</text>
+</svg>
