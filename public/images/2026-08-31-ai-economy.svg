@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#161229"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff9f43"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f85149"/>
+      <stop offset="100%" stop-color="#d29922"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <circle cx="120" cy="530" r="180" fill="#ffd166" opacity="0.06"/>
+  <circle cx="1180" cy="60" r="200" fill="#4f8cff" opacity="0.08"/>
+
+  <text x="60" y="72" font-family="Microsoft YaHei, sans-serif" font-size="36" font-weight="800" fill="#ffffff">AI 经济账：钱都流向了谁？</text>
+  <text x="60" y="108" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#9aa7b8">巴克莱拆解：模型公司每赚 100 美元，云厂商拿走近 40 美元</text>
+
+  <!-- 100 美元分账条 -->
+  <text x="60" y="170" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#c9d7e8">模型公司每赚 100 美元的收入分配</text>
+  <rect x="60" y="186" width="400" height="46" rx="8" fill="#7c5cff"/>
+  <text x="260" y="216" font-family="Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">云厂商 · 约 40 美元</text>
+  <rect x="460" y="186" width="160" height="46" rx="8" fill="#2ea043"/>
+  <text x="540" y="216" font-family="Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">公司留存 · 60 美元</text>
+
+  <g font-family="Microsoft YaHei, sans-serif">
+    <rect x="60" y="280" width="270" height="170" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="84" y="318" font-size="19" font-weight="700" fill="#c4b0ff">钱去哪了</text>
+    <text x="84" y="350" font-size="15" fill="#c9d7e8">GPU 算力租赁</text>
+    <text x="84" y="374" font-size="15" fill="#c9d7e8">云托管与带宽</text>
+    <text x="84" y="398" font-size="15" fill="#9aa7b8">推理/训练基础设施</text>
+    <text x="84" y="428" font-size="14" fill="#5b6b80">大头流向 AWS·Azure·GCP</text>
+
+    <rect x="350" y="280" width="270" height="170" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="374" y="318" font-size="19" font-weight="700" fill="#ffd166">格局之变</text>
+    <text x="374" y="350" font-size="15" fill="#c9d7e8">从"合作"走向"竞合"</text>
+    <text x="374" y="374" font-size="15" fill="#c9d7e8">云厂商自己做模型</text>
+    <text x="374" y="398" font-size="15" fill="#9aa7b8">模型公司自建算力</text>
+    <text x="374" y="428" font-size="14" fill="#5b6b80">边界正在模糊</text>
+
+    <rect x="640" y="280" width="270" height="170" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="664" y="318" font-size="19" font-weight="700" fill="#7ee2a0">国产解法</text>
+    <text x="664" y="350" font-size="15" fill="#c9d7e8">开源模型 + 国产芯片</text>
+    <text x="664" y="374" font-size="15" fill="#c9d7e8">10 万张国产卡规模化</text>
+    <text x="664" y="398" font-size="15" fill="#9aa7b8">降低训练仓储成本</text>
+    <text x="664" y="428" font-size="14" fill="#5b6b80">"牛来"等模型降价破局</text>
+
+    <rect x="930" y="280" width="290" height="170" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="954" y="318" font-size="19" font-weight="700" fill="#f85149">关键变量</text>
+    <text x="954" y="350" font-size="15" fill="#c9d7e8">词元(Token)经济</text>
+    <text x="954" y="374" font-size="15" fill="#c9d7e8">车载移动式词元工厂</text>
+    <text x="954" y="398" font-size="15" fill="#9aa7b8">算力成本再重构</text>
+    <text x="954" y="428" font-size="14" fill="#5b6b80">边缘部署或改写分账</text>
+  </g>
+
+  <text x="60" y="548" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#5b6b80">示意图 · 数据据巴克莱报告与公开报道整理</text>
+</svg>
