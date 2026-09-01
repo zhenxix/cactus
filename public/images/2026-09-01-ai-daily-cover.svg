@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="60%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161229"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f8cff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff9f43"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ea043"/>
+      <stop offset="100%" stop-color="#57ab5a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="1100" cy="120" r="260" fill="#7c5cff" opacity="0.10"/>
+  <circle cx="180" cy="620" r="300" fill="#2ea043" opacity="0.06"/>
+
+  <rect x="60" y="46" width="210" height="36" rx="18" fill="none" stroke="#2d3648"/>
+  <circle cx="84" cy="64" r="6" fill="#4f8cff"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="104" y="70" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#9aa7b8">AI 情报速览 · 2026.09.01</text>
+
+  <text x="60" y="170" font-family="Microsoft YaHei, sans-serif" font-size="64" font-weight="800" fill="#ffffff">今日 AI 发展速览</text>
+  <text x="62" y="232" font-family="Microsoft YaHei, sans-serif" font-size="30" fill="#9aa7b8">2026年9月1日 · AI 开学礼 · 应用落地加速</text>
+
+  <rect x="60" y="275" width="1160" height="120" rx="16" fill="#1c2333" stroke="#2d3648"/>
+  <text x="84" y="312" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#ffd166">🔥 今日焦点</text>
+  <text x="84" y="352" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#e6edf3" filter="url(#glow)">智谱首份中报:营收增 400% · MaaS ARR 16 亿美元</text>
+  <text x="84" y="388" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#9aa7b8">"全球大模型第一股"半年超去年全年 · 开源模型也能挣钱</text>
+
+  <g font-family="Microsoft YaHei, sans-serif">
+    <rect x="60" y="430" width="270" height="150" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="84" y="470" font-size="42" font-weight="800" fill="#7ee2a0">+400%</text>
+    <text x="84" y="506" font-size="18" fill="#c9d7e8">智谱营收增速</text>
+    <text x="84" y="536" font-size="15" fill="#9aa7b8">财报 · 9.54 亿元</text>
+
+    <rect x="350" y="430" width="270" height="150" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="374" y="470" font-size="42" font-weight="800" fill="#ffd166">16亿</text>
+    <text x="374" y="506" font-size="18" fill="#c9d7e8">美元 MaaS ARR</text>
+    <text x="374" y="536" font-size="15" fill="#9aa7b8">订阅 · 同比+2736%</text>
+
+    <rect x="640" y="430" width="270" height="150" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="664" y="470" font-size="42" font-weight="800" fill="#c4b0ff">350亿</text>
+    <text x="664" y="506" font-size="18" fill="#c9d7e8">美元云协议</text>
+    <text x="664" y="536" font-size="15" fill="#9aa7b8">商业 · Anthropic×Lambda</text>
+
+    <rect x="930" y="430" width="290" height="150" rx="14" fill="#171f30" stroke="#2d3648"/>
+    <text x="954" y="470" font-size="42" font-weight="800" fill="#7c5cff">开学✓</text>
+    <text x="954" y="506" font-size="18" fill="#c9d7e8">《开学第一课》开播</text>
+    <text x="954" y="536" font-size="15" fill="#9aa7b8">国内 · 我们的长征路</text>
+  </g>
+
+  <text x="60" y="640" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#5b6b80">内容基于公开报道综合整理 · 图片来源:本站自制示意图</text>
+  <text x="60" y="672" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#5b6b80">zhenxi.site</text>
+</svg>
