@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#161229"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff9f43"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ea043"/>
+      <stop offset="100%" stop-color="#57ab5a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <circle cx="120" cy="530" r="180" fill="#ffd166" opacity="0.06"/>
+  <circle cx="1180" cy="60" r="200" fill="#4f8cff" opacity="0.08"/>
+
+  <text x="60" y="72" font-family="Microsoft YaHei, sans-serif" font-size="36" font-weight="800" fill="#ffffff">智谱首份中报:开源模型的商业答卷</text>
+  <text x="60" y="108" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#9aa7b8">"全球大模型第一股"· 2026 上半年业绩</text>
+
+  <g font-family="Microsoft YaHei, sans-serif">
+    <rect x="60" y="150" width="260" height="190" rx="16" fill="#1c2333" stroke="#2d3648"/>
+    <text x="84" y="192" font-size="19" font-weight="700" fill="#7ee2a0">营收</text>
+    <text x="84" y="240" font-size="40" font-weight="800" fill="#ffffff">9.54亿</text>
+    <text x="84" y="280" font-size="16" fill="#ffd166">同比增长约 400%</text>
+    <text x="84" y="310" font-size="15" fill="#9aa7b8">半年超去年全年</text>
+
+    <rect x="340" y="150" width="260" height="190" rx="16" fill="#1c2333" stroke="#2d3648"/>
+    <text x="364" y="192" font-size="19" font-weight="700" fill="#c4b0ff">MaaS ARR</text>
+    <text x="364" y="240" font-size="40" font-weight="800" fill="#ffffff">16亿$</text>
+    <text x="364" y="280" font-size="16" fill="#ffd166">同比增长 2736%</text>
+    <text x="364" y="310" font-size="15" fill="#9aa7b8">订阅制商业模型跑通</text>
+
+    <rect x="620" y="150" width="260" height="190" rx="16" fill="#1c2333" stroke="#2d3648"/>
+    <text x="644" y="192" font-size="19" font-weight="700" fill="#4f8cff">驱动力</text>
+    <text x="644" y="240" font-size="22" font-weight="800" fill="#ffffff">GLM-5.3-Flash</text>
+    <text x="644" y="280" font-size="16" fill="#c9d7e8">"牛来"开源全球放量</text>
+    <text x="644" y="310" font-size="15" fill="#9aa7b8">OpenAI 反向采用加持</text>
+
+    <rect x="900" y="150" width="320" height="190" rx="16" fill="#1c2333" stroke="#2d3648"/>
+    <text x="924" y="192" font-size="19" font-weight="700" fill="#ffd166">行业意义</text>
+    <text x="924" y="234" font-size="16" fill="#c9d7e8">首个验证"开源模型也能</text>
+    <text x="924" y="258" font-size="16" fill="#c9d7e8">挣钱"的国产大模型样本</text>
+    <text x="924" y="292" font-size="15" fill="#9aa7b8">开源 + 国产算力 + 订阅</text>
+    <text x="924" y="316" font-size="15" fill="#9aa7b8">商业闭环初步形成</text>
+  </g>
+
+  <rect x="60" y="380" width="1160" height="130" rx="16" fill="#1c2333" stroke="#2d3648"/>
+  <text x="84" y="418" font-family="Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#ffd166">对照</text>
+  <text x="84" y="452" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#c9d7e8">① 工信部启动 AI 应用服务商培育专项行动,政策重心从模型转向应用落地</text>
+  <text x="84" y="482" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#c9d7e8">② 英伟达现身多环节:Anthropic 350 亿美元云协议、35 亿美元注资联发科</text>
+
+  <text x="60" y="548" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#5b6b80">示意图 · 数据据智谱中报与公开报道整理</text>
+</svg>
