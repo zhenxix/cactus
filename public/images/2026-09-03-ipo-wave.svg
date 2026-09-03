@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#161229"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff9f43"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ea043"/>
+      <stop offset="100%" stop-color="#57ab5a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <circle cx="120" cy="530" r="180" fill="#ffd166" opacity="0.06"/>
+  <circle cx="1180" cy="60" r="200" fill="#4f8cff" opacity="0.08"/>
+
+  <text x="60" y="72" font-family="Microsoft YaHei, sans-serif" font-size="36" font-weight="800" fill="#ffffff">国产大模型"上市潮"开启</text>
+  <text x="60" y="108" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#9aa7b8">从智谱到月之暗面 · 资本市场为中国 AI 定价</text>
+
+  <g font-family="Microsoft YaHei, sans-serif">
+    <rect x="60" y="150" width="360" height="230" rx="16" fill="#1c2333" stroke="#2d3648"/>
+    <text x="84" y="192" font-size="20" font-weight="800" fill="#7ee2a0">智谱(已上市)</text>
+    <text x="84" y="240" font-size="38" font-weight="800" fill="#ffffff">"大模型第一股"</text>
+    <text x="84" y="282" font-size="15" fill="#c9d7e8">上半年营收 +400%</text>
+    <text x="84" y="306" font-size="15" fill="#c9d7e8">MaaS ARR 16 亿美元</text>
+    <text x="84" y="340" font-size="14" fill="#5b6b80">GLM-5.3-Flash"牛来"开源放量</text>
+
+    <rect x="450" y="150" width="360" height="230" rx="16" fill="#1c2333" stroke="#2d3648"/>
+    <text x="474" y="192" font-size="20" font-weight="800" fill="#ffd166">月之暗面(进行中)</text>
+    <text x="474" y="240" font-size="38" font-weight="800" fill="#ffffff">500 亿美元</text>
+    <text x="474" y="282" font-size="15" fill="#c9d7e8">秘密交表港交所</text>
+    <text x="474" y="306" font-size="15" fill="#c9d7e8">Kimi 长文本/多模态</text>
+    <text x="474" y="340" font-size="14" fill="#5b6b80">投前估值 500 亿美元</text>
+
+    <rect x="840" y="150" width="380" height="230" rx="16" fill="#1c2333" stroke="#2d3648"/>
+    <text x="864" y="192" font-size="20" font-weight="800" fill="#c4b0ff">市场共振</text>
+    <text x="864" y="240" font-size="30" font-weight="800" fill="#ffffff">富时 A50 大换血</text>
+    <text x="864" y="282" font-size="15" fill="#c9d7e8">AI 硬件龙头入选核心成分</text>
+    <text x="864" y="306" font-size="15" fill="#c9d7e8">奥特曼:AI 是商业史最大繁荣</text>
+    <text x="864" y="340" font-size="14" fill="#5b6b80">资本定价从"故事"走向"业绩"</text>
+  </g>
+
+  <rect x="60" y="420" width="1160" height="100" rx="16" fill="#1c2333" stroke="#2d3648"/>
+  <text x="84" y="456" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#c9d7e8">对比:开源模型商业化路径 —— 智谱"牛来"开源带动订阅放量,MaaS ARR 16 亿美元;</text>
+  <text x="84" y="488" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#c9d7e8">月之暗面 Kimi 依靠产品体验与 To C/To B 双轮,估值 500 亿美元冲击港股。</text>
+
+  <text x="60" y="548" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#5b6b80">示意图 · 数据据公开报道整理</text>
+</svg>
